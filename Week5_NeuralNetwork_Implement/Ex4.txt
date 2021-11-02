@@ -1,0 +1,30 @@
+Theta2 = reshape(nn_params((1 + (hidden_layer_size * (input_layer_size + 1))):end),num_labels, (hidden_layer_size + 1));
+ Theta1=reshape(nn_params(1:hidden_layer_size * (input_layer_size + 1)), hidden_layer_size, (input_layer_size
+ + 1));
+
+Y= 5000 10
+
+X= 5000 400
+A1= 5000 401
+
+Z2= 5000 25
+A2= 5000 26
+
+
+Theta1 25 401
+Theta2 10 26
+
+Z3=5000 10
+A3= 5000 10
+
+	
+=> A2 5000 25= 5000 26
+=> A3 5000 10
+delta3= 5000 10
+delta2 =5000 25
+Delta2= 10 26
+Delta1= 25 401
+
+
+Theta1_grad= 25 401
+Theta2_grad=10 26

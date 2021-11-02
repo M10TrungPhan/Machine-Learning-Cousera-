@@ -1,0 +1,5 @@
+X= [ movie x feature]
+Theta=[ users x feature]
+Y= [movie x users]
+R= [ moviex users]
+X*Theta'= [ movie* users]
